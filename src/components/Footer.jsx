@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+91-123-168-0976</li>
-            <li>saquibanjumdeveloper@gmail.com</li>
+            <li>priyankaupadhyay785@gmail.com</li>
             <li>Instagram</li>
             <li>Facebook</li>
           </ul>
@@ -32,8 +32,8 @@ const Footer = () => {
       </div>
       <div>
         <hr className="text-gray-900" />
-        <p className="mt-2 text-sm text-center">Made 💖 with <a href='https://github.com/Saquib-Anjum' className="text-gray-950">Saquib</a></p>
-        <p className="mb-5 text-sm text-center">Copyright 2025 @CivicPulse - All Right Reserved.</p>
+        <p className="mt-2 text-sm text-center">Made 💖 with <a href='https://github.com/Priyanka-svg-coder' className="text-gray-950">Priyanka</a></p>
+        <p className="mb-5 text-sm text-center">Copyright 2026 @CivicPulse - All Right Reserved.</p>
         
       </div>
     </div>
