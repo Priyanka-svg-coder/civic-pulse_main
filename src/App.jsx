@@ -8,6 +8,9 @@ import MyReports from './pages/MyReports'
 import NotFound from './pages/NotFound';
 import ReportIssue from './pages/ReportIssue'
 import Footer from './components/Footer'
+import About from './pages/about'
+import PrivacyPolicy from './pages/privacypolicy'
+import Delivery from './pages/delivery'
 const App = () => {
   
     const [user, setUser] = useState(null);
@@ -32,6 +35,9 @@ const App = () => {
             <Route path="/my-reports" element={<MyReports />} />
             <Route path="/login" element={<Login onLogin={handleLogin} />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/aboutus" element={<About />} />
+            <Route path="/delivery" element={<Delivery />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             
            </Routes>
            <Toaster/>

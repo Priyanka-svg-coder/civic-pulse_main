@@ -155,3 +155,238 @@
     }
   }
   
+
+/* =========================
+   ABOUT PAGE (HERO SAFE)
+========================= */
+
+.about-page {
+  width: 100%;
+}
+
+/* ⚠️ HERO SECTION – TOUCH NAHI KIYA */
+.about-hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  color: #fff;
+  background-size: cover;
+  background-position: center 65%;
+  background-attachment: fixed;
+}
+
+.about-hero-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.about-hero-content p {
+  max-width: 720px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: auto;
+}
+
+/* =========================
+   CONTENT SECTION (CLASSY)
+========================= */
+
+.about-content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 90px 20px;
+}
+
+.about-content h2 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #111;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 900px;
+}
+
+.about-content ul {
+  padding-left: 22px;
+}
+
+.about-content li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+/* =========================
+   VISION / VALUES CARDS
+========================= */
+
+.about-box-section {
+  background: #fafafa;
+  padding: 90px 20px;
+}
+
+.about-box-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+}
+
+.about-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.about-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+}
+
+.about-box h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.about-box p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .about-hero-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-content {
+    padding: 60px 18px;
+  }
+
+  .about-content h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.about-hero h1 {
+  font-size: 3.8rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+
+/* SMALLER HEADINGS FOR ABOUT CONTENT */
+.about-content h2 {
+  font-size: 1.7rem;   /* pehle ~2.1rem tha */
+  font-weight: 700;
+  margin: 50px 0 16px;
+  color: #111;
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   DELIVERY PAGE STYLES
+   ========================= */
+
+/* HERO SECTION */
+.delivery-hero h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.delivery-hero p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* CONTENT SECTION */
+.delivery-content h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.delivery-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* DELIVERY CARDS */
+.delivery-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.delivery-card h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.delivery-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* HOVER EFFECT */
+.delivery-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+/* CONTENT SECTION HEADING */
+.delivery-content h2,
+section h2 {
+  font-size: 1.75rem;     /* thoda bada */
+  font-weight: 800;      /* proper bold */
+  color: #111;
+  letter-spacing: 0.4px;
+}
+
+/* CONTENT TEXT */
+.delivery-content p,
+section p {
+  font-size: 1.08rem;    /* text thoda bada */
+  line-height: 1.8;
+  color: #444;
+}

@@ -9,12 +9,27 @@ const HomePage = () => {
         {/* Hero Section */}
 <section 
   className="bg-gradient-to-br from-civic-purple to-civic-dark-purple text-white py-16 md:py-24" 
-  style={{ 
-    backgroundImage: 'url(/bg.jpg)', 
-    backgroundSize: 'cover', 
-    backgroundPosition: ' center',  // Change to 'top center' to avoid cropping at the bottom
-    backgroundAttachment: 'fixed'       // Optional, to make the image fixed as you scroll
-  }}
+  // style={{ 
+  //   backgroundImage: 'url(/bg2.png)', 
+  //   backgroundSize: 'cover', 
+  //   backgroundPosition: ' center',  // Change to 'top center' to avoid cropping at the bottom
+  //   backgroundAttachment: 'fixed'       // Optional, to make the image fixed as you scroll
+  // }}
+
+
+style={{
+  backgroundImage: `
+    linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+    ),
+    url(/bg2.png)
+  `,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center 65%', // 👈 same screenshot jaisa crop
+  backgroundAttachment: 'fixed',
+  minHeight: '60vh'
+}}
 >
   <div className="container-custom mx-auto text-center">
     <h1 className="text-3xl md:text-5xl font-bold mb-4">
